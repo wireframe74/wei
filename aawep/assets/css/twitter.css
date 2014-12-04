@@ -1,0 +1,15 @@
+.custom-timeline-owner-profile, 
+		.timeline .e-entry-title, 
+		.p-author .p-name, 
+		.cards-base h3, 
+		.new-tweets-bar button, 
+		.load-tweets, .no-more-pane {
+			font-size: 1.8em; 
+			line-height: 1.3em;
+		}
+
+		/*img.autosized-media,
+		.inline-media,
+		.tweet img {
+			display: none;
+		}*/

@@ -1,0 +1,190 @@
+.sidebar-menu {
+background: #C9AFC7;
+padding: 0;
+margin: 20px 0 0;
+}
+
+.sidebar-menu .nav > li {
+	width: 100%;
+}
+
+.sidebar-menu .nav > li a,
+.child-sidebar-menu li a {
+	padding: 8px 15px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	text-decoration: none;
+	display: block;
+	font-size: 18px
+}
+
+.sidebar-menu .nav > li a:hover, 
+li.page_item a:hover,
+.child-sidebar-menu li a:hover, 
+.sidebar-menu .nav > li.current-menu-item a, 
+.child-sidebar-menu > li.current-menu-item a, 
+.children > li.current_page_item > a {
+background: #AE8FB1;
+border-right: 1px solid purple;
+text-decoration: none;
+display: block;
+}
+
+li.has_children > a, li.has_children a, .page_item a, .page_item_has_children a {
+text-decoration: none;
+font-size: 18px;
+display: block;
+-webkit-transition: all .5s;
+-o-transition: all .5s;
+transition: all .5s;
+padding: 0 0 0 20px;
+line-height: 40px;
+}
+
+li.has_children > a:hover, 
+li.has_children a:hover {
+background: #AE8FB1;
+}
+
+.page_item_has_children > a {
+	font-weight: bold;
+}
+
+
+.widget_hier_page > ul > li > a ,
+.widget_hier_page > ul > ul > li > a 
+
+{
+text-decoration: none;
+font-weight: bold;
+}
+
+.widget_hier_page a {
+	font-weight: bold;
+}
+
+ul.children > li > a {
+
+	text-decoration: none;
+}
+
+
+.widget_hier_page > ul.children > li > a {
+font-weight: bold;
+}
+
+
+
+ul.children > li ul li a {
+padding-left: 40px;
+font-weight: normal;
+}
+
+
+.widget_hier_page > ul {
+padding: 0;
+margin: 0;
+}
+
+
+.logout-link {
+width: 100%;
+padding: 0;
+font-weight: bold;
+text-transform: uppercase;
+color: #1b1b1b;
+text-decoration: underline;
+float: left;
+margin: 0 0 20px;
+}
+
+
+ul.children {
+padding: 0;
+margin: 0;
+}
+
+.child-sidebar-menu, 
+.child-sidebar-menu ul {
+	padding: 0;
+}
+.child-sidebar-menu  li ,
+li.page_item {
+	list-style: none;
+
+}
+.child-sidebar-menu > li > a {
+font-weight: bold;
+}
+
+.child-sidebar-menu {
+	margin: 0;
+}
+
+.child-sidebar-menu ul.children li a,
+.has_children a{
+	padding-left: 30px;
+}
+
+
+.page-template-templatesvideo-detail-php article.page {
+padding-bottom: 60px;
+}
+
+#field_4_14,
+#field_6_62,
+#field_1_28,
+#field_2_5 {
+	display: none;
+}
+
+.download-brochure .gform_footer input[type="submit"] {
+float: right;
+}
+
+.form-control.valid {
+	height: 300px!IMPORTANT;
+	display: block;
+	float: left;
+}
+
+.affiliate-signup .form-inline .control-label {
+width: 90%;
+max-width: 900px;
+}
+
+.password-wrapper {
+	margin: 40px auto;	
+}
+.password-wrapper h2 {
+	text-transform: uppercase;
+}
+.login-discount input[type="password"] {
+	background: #ccc;
+	box-shadow: none;
+	max-width: 300px;
+	height: 52px;
+float: left;
+}
+
+.coupon {
+	padding: 14px 12px;
+	background: #dbdbdb;
+box-shadow: none;
+width: 200px;
+ font-family: 'latolight';
+border:none;
+}
+
+.coupon-wrap {
+	width: 100%;
+	margin: 20px 0;
+	float: left;
+}
+
+.coupon-wrap + .foxyshop_button {
+	margin-left: 0;	
+}
+
+

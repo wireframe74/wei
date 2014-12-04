@@ -1,0 +1,86 @@
+@mixin img-r ($width, $height, $image) {
+	background:url($image) top left no-repeat;
+	width: $width;
+	height: $height;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+@mixin button ($background) {
+		color:#fff;
+		text-transform: uppercase;
+		border-radius:0!important;
+		font-size: 1.48em;
+		@extend %secondary-font;
+		background: $background;
+		padding: 0 37px;
+		border: none;
+}
+
+
+@mixin subheading () {
+	font-family: 'alternategothic2_btregular', arial, helvetica, sans-serif;
+	text-transform: uppercase;
+	  font-weight: normal;
+    font-style: normal;
+    color: #fff
+}
+
+
+@mixin widget-bg ($background) {
+
+
+		background: url(../images/plus.png), url($background);
+		background-position: right bottom , left top;
+		background-repeat: no-repeat;
+		background-size: auto,cover;
+		width: 100%;
+		height: 230px;
+		transition: all .3s;
+			&:hover {
+				opacity: .5;
+			background-position: right bottom, left bottom;
+			}
+		
+		}
+
+@mixin widget-bg-cross  {
+
+
+		/* background: url(../images/plus.png); */
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		background-size: auto;
+		width: 100%;
+		height: 230px;
+		transition: all .3s;
+			&:hover {
+				opacity: .5;
+			background-position: right bottom, left bottom;
+			}
+		
+		}
+
+@mixin form-elem  {
+margin: 6px 0 0 0;
+padding: 20px 10px;
+color:#fff;
+display: inline-block;
+vertical-align: middle;
+font-size: 16px;
+color: #fff;
+background-color: #fff;
+border: 0;
+border-radius: 0;
+background: #141414;
+-webkit-transition: all .5s;
+-o-transition: all .5s;
+transition: all .5s;
+width: 99%;
+	&:focus {
+	box-shadow: none;
+	background: #000;
+	border: 1px solid #f19119;
+	}
+}

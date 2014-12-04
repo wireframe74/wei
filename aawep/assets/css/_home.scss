@@ -1,0 +1,61 @@
+#home-cta h3 {
+text-align: left;
+font-family: 'latoregular' , arial, helvetica, sans-serif;
+font-size: 1.3em;
+line-height: 1.3em;
+text-transform: none;
+}
+
+#home-cta .large-button {
+
+width: 100%;
+display: block;
+max-width: none;
+margin: 40px 0 0 0;
+}
+
+
+.cta.about-cta {
+background: url(../images/play-blk.png), url(../images/pattern.jpg);
+background-position: right bottom , left top;
+background-repeat: no-repeat;
+background-size: auto,cover;
+}
+
+
+
+
+
+
+a.alison-cta {
+
+
+background: url(../images/more-white.png), url(../images/course1.jpg);
+background-position: right bottom , left top;
+background-repeat: no-repeat;
+background-size: auto,cover;
+
+	h2 {
+
+text-indent: -99999px;
+height: 161px;
+background-size: 80%;
+
+	background: url(../images/wei-live-cta.png)center center no-repeat;
+	
+	}
+
+}
+.cta.wedding-cta.video {
+	background: #EDEDED url(../images/play-blk.png) bottom right no-repeat;
+	h2 {
+color: #000
+	}
+}
+
+.cta.wedding-cta h2:before {
+background: url(../images/wei-tv.png) center center no-repeat;
+top: 44px;
+height: 166px;
+background-size: 58%;
+}

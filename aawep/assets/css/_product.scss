@@ -1,0 +1,91 @@
+#vsTable_62015 td {
+font-family: 'latolight', arial, helvetica, sans-serif;
+font-size: 1.3em;
+line-height: 1.5em;
+border-right: 1px solid #D8D8D8;
+}
+
+#vsTable_62015 { border-bottom:3px solid #1b1b1b }
+
+#vsTable_62015 td p { font-size: 1em;}
+#vsTableTitle  {text-transform:uppercase}
+
+.foxyshop .foxyshop_variations label {
+width: auto;
+box-shadow: none;
+margin-top: 5px;
+}
+
+h4, 
+.gform_description, 
+.foxyshop_currentprice{
+	font-size: 2em; 
+	line-height: 1.3em; 
+	@extend %primary-font;
+}
+
+.foxyshop_currentprice { margin:0 0 30px; display:block}
+
+
+
+ .gform_description { display:block; margin:30px 0 }
+
+ .nav-tabs > li > a {
+font-family: 'freeway_gothicmedium', arial, helvetica, sans-serif;
+color: #fff;
+text-transform: uppercase;
+margin-right: 20px;
+font-size: 14px;
+border-color: #1b1b1b #1b1b1b #1b1b1b;
+border: none;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: #C9A1DB;
+background-color: transparent;
+
+
+
+border-color: #1b1b1b #1b1b1b #1b1b1b;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+background-color: transparent;
+}
+
+
+.nav-tabs > li { font-size:1.15em}
+
+#payment-container select {
+background: #dbdbdb;
+width: 40%;
+box-shadow: none;
+}
+
+.foxyshop .foxyshop_button:hover {
+background-color: #152463;
+color: #fff;
+opacity: 1;
+}
+
+
+#field_1_20 label, 
+#field_1_21 label { 
+display:none 
+}
+input.foxyshop_quantity { background: #dbdbdb; box-shadow: none;}
+
+
+label[for=choice_7_1] {
+font-size: 1em;
+margin: 0 0 0 0;
+display: block;
+float: left;
+margin: 12px 0 0 10px;
+}
+
+.foxyshop_variations label:first-child {display:none }
+.foxyshop_button { margin:0 0 0 10px }
+.foxyshop input[type="text"].foxyshop_quantity {
+width: 45px;
+text-align: center;
+}

@@ -1,0 +1,451 @@
+/* FOXSHOP STYLES */
+.foxyshop_addon_container {
+padding-left: 5px;
+padding: 20px 0 0 6px;
+float: left;
+width:100%
+}
+
+.foxyshop_addon_container label.addon_main_label {
+float: left;
+width: auto;
+font-size: 1.3em;
+margin-left: 8px;
+}
+
+.foxyshop_addon_container .foxyshop_currentprice {
+font-size: 1.3em;
+line-height: 1.3em;
+margin: 0;
+}
+
+.foxyshop_addon_container .foxyshop_price {
+margin-left: 10px;
+}
+
+.cart #fc_checkout_container label.fc_pre, #fc_checkout_container span.fc_pre, #fc_receipt_container span.fc_pre {
+text-align: left;
+width: 100%;
+margin: 0 0 10px;
+}
+
+.cart #fc_cart_container input.fc_cart_item_quantity {
+width: 3.5em;
+padding: 12px 10px;
+background: #f1eded;
+font-size: 11px;
+border: none;
+text-align: center;
+}
+
+
+.cart #fc_cart_head {
+font-family: 'freeway_gothicmedium'; text-transform:uppercase; font-weight:normal
+}
+
+.cart #fc_cart_table td {
+border-bottom: none;
+font-size: 1.3em!important;
+font-family: 'latolight' , arial, helvetica, sans-serif;
+padding: 10px;
+}
+
+.cart #fc_cart_container li.fc_cart_item_subscription_details ul {
+border-top: none;
+margin: 10px 0 0 0;
+}
+
+.cart #fc_cart_container ul.fc_cart_item_options, .cart #fc_cart_container li.fc_cart_item_subscription_details ul {
+margin: 0 0 5px;
+padding: 0 0 0 0;
+}
+
+.cart #fc_cart_container li.fc_cart_item_option {
+background: none;
+color: #666;
+font-size: 1em;
+line-height: 1.3em;
+}
+
+.cart #fc_cart_container {
+background-image: url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/cart.gif);
+background-position: 0 16px;
+background-repeat: no-repeat;
+}
+
+/* BUTTONS */
+.cart #fc_cart_container a.fc_cart_checkout {
+width: 131px;
+padding-top: 42px;
+background-image: url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/checkout.gif) ;
+background-repeat: no-repeat;
+text-indent:-9999px;
+}
+
+.cart #fc_cart_container #fc_cart_controls_top a.fc_cart_update, .cart #fc_cart_container #fc_cart_controls_bottom a.fc_cart_update {
+width: 105px;
+padding-top: 24px;
+margin-right: 0;
+background-image: url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/update.gif) ;
+padding-top: 33px;
+background-repeat: no-repeat;
+}
+
+.cart #fc_cart_container a.fc_cart_update:hover, .cart #fc_cart_container a.fc_cart_checkout:hover, .cart #fc_cart_table .fc_cart_remove_link:hover  {
+background-position: 0 0;
+opacity:.6!IMPORTANT;
+background-repeat: no-repeat;
+}
+
+.cart #fc_cart_form {
+padding: 2PX 0 0;
+overflow: hidden;
+width: 100%;
+}
+
+.cart #fc_cart_table .fc_cart_remove_link {
+width: 20px;
+height: 0;
+overflow: hidden;
+padding: 16px 0 0 10PX!IMPORTANT;
+display: block;
+background-image: url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/delete.gif);
+padding: 18px 0 0 0;
+background-position: 0 0;
+background-repeat: no-repeat;
+MARGIN: 2PX 0 0 10PX;
+display: inline-block;
+}
+
+.cart #fc_cart_table thead th, #fc_cart_table #fc_cart_foot_total td {
+background: #f1eded;
+color: #000;
+font-size: 1.3em;
+font-weight: normal;
+text-transform: uppercase;
+letter-spacing: 0;
+padding: 15px;
+}
+
+.cart  #fc_cart_controls_top, .cart  #fc_cart_controls_bottom {
+margin: 12px 0 15px 0;
+}
+
+/* TABLE CELLS */
+
+
+#fc_cart_table {
+border-top: 1px solid #5083C5;
+border-bottom: 1px solid #5083C5;
+}
+
+
+#fc_cart_table thead th,#fc_cart_table #fc_cart_foot_total td  {
+background: #f1eded;
+color: #000;
+font-size: 1.3em;
+font-weight: normal;
+text-transform: uppercase;
+letter-spacing: 0;
+}
+
+#fc_cart_table #fc_cart_foot_total td {
+background: #f1eded;
+color: #000;
+font-weight: normal;
+letter-spacing: 0;
+}
+
+/* CHECKOUT PAGE */
+.checkout #fc_checkout_container {
+background:  url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/header-checkout.gif)
+ no-repeat left top;
+}
+
+.checkout #fc_checkout_container li.fc_row, #fc_receipt_container li.fc_row {
+margin: 0 0 5px;
+}
+
+.checkout  #fc_login_register_container h2 {
+background:   url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/step1.gif) no-repeat center top;
+}
+
+.checkout  div#fc_continue a.fc_link_nav {
+background:  url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/continue.gif) no-repeat center top;
+}
+
+.checkout #fc_customer_billing_container h2 {
+background:   url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/step2.gif) no-repeat center top;
+}
+
+.checkout  #fc_shipping_container h2 {
+background:    url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/step3.gif) no-repeat center top;
+}
+
+
+.checkout   #fc_payment_container h2 {
+background:     url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/step4.gif) no-repeat center top;
+}
+
+.checkout .form-inline .form-control {
+width: 100%!Important;
+box-shadow: none;
+background-color: #F1F1F1!important;
+height:26px;
+}
+
+
+.checkout  #fc_payment_method_plastic_container span img:nth-child(4) {
+display:none
+}
+
+.checkout div#fc_continue a.fc_link_nav {
+height: 42px;
+text-indent: -9999px;
+float: left;
+background-position: 0 0;
+margin: 0;
+}
+.checkout #fc_checkout_container label.fc_pre, #fc_checkout_container span.fc_pre, #fc_receipt_container span.fc_pre {
+width: 100%;
+padding: 5px 10px 0 0;
+float: left;
+line-height: 1;
+text-align: left; font-size: 1.1em;
+margin: 12px 0;
+font-family: 'latolight', arial, helvetica, sans-serif;
+font-weight:normal;
+}
+
+#fc_checkout_container .fc_error {
+font-family: 'latolight', arial, helvetica, sans-serif;
+}
+
+.checkout #fc_checkout_container div.fc_fieldset_container, .checkout #fc_receipt_container div.fc_fieldset_container {
+width: 100%;
+margin-right: 3%;
+float: left;
+max-width: 560px;
+}
+
+#fc_shipping_container #fc_shipping_list span.fc_text {
+line-height: 32px; 
+font-family: 'latolight', arial, helvetica, sans-serif;
+font-weight:normal;
+background-color: #E4E4E4!important;
+}
+
+
+.checkout #fc_checkout_container fieldset, .checkout #fc_receipt_container fieldset {
+margin: 0 0 40px 0;
+padding: 0 10px 10px 0;
+border: none; 
+}
+
+
+.checkout #fc_cancel_continue_shopping a { 
+font-family: 'latolight', arial, helvetica, sans-serif;
+font-weight:normal;
+}
+
+.checkout #fc_checkout_container li.fc_row_radio, #fc_checkout_container li.fc_row_checkbox {
+font-family: 'latolight', arial, helvetica, sans-serif;
+font-weight:normal;
+width: 64%;
+}
+
+.checkout #fc_payment_container #fc_payment_list label {
+width: 100%;
+}
+
+.checkout .fc_location.awesomecomplete-input.has-fc_foxycomplete_combobox {
+width:300px!iMPORTANT;
+}
+
+.checkout #fc_checkout_container button.fc_foxycomplete_combobox {
+background: #C2C2C2;
+border: none;
+border-left: none;
+color: #FFF;
+cursor: pointer;
+font-family: Tahoma;
+font-size: 12px;
+text-align: center;
+position: absolute;
+display: inline-block;
+padding: 0;
+margin: 0;
+height: 31px;
+width: 31px;
+top: 43px;
+left: 299px;
+z-index: 9;
+height: 31px!important;
+width: 31px!important;
+top: 43px;
+left: 298px!important;
+}
+
+.page #fc_checkout_container h2, 
+.page #fc_receipt_container h2 {
+margin: 0;
+border-bottom: 1px solid #E9E9E9;
+color: #666;
+color: #D03C3A;
+font-size: 18px;
+text-transform: lowercase;
+}
+
+.page #fc_receipt_container span.fc_text {
+padding: 10px 0 0;
+margin: 0;
+float: none;
+clear: right;
+display: block;
+text-align: left;
+box-shadow: none;
+
+}
+
+
+#fc_checkout_container input#cc_cvv2, #fc_checkout_container input#cc_issue_number {
+width: 3em!Important;
+}
+
+.checkout #fc_checkout_container li.fc_row, 
+.page #fc_receipt_container li.fc_row {
+margin: 0 0 5px;
+clear: both;
+display: block;
+}
+
+
+#fc_checkout_container input.fc_text {
+padding-right: 0!important;
+}
+
+#fc_receipt_billing_list > * {
+box-shadow:none!important
+}
+
+
+.checkout #fc_checkout_container button.fc_foxycomplete_combobox:hover {
+background: #696767;
+}
+
+
+.checkout #fc_payment_container #fc_payment_list label:first-child {
+margin: 20px 0;
+}
+
+.checkout #li_cc_exp_month select {
+background: #E4E4E4!important;
+width: 47%;
+padding: 10px 3px;
+border: none;
+font-family: 'latolight', arial, helvetica, sans-serif;
+font-weight:normal;
+}
+
+
+
+
+#cc_exp_year { float:right }
+
+.checkout #fc_payment_method_plastic_container {  margin-top:20px}
+.checkout #fc_checkout_container li.fc_row_radio, .checkout #fc_checkout_container li.fc_row_checkbox {
+padding-left: 0;
+margin-bottom: 5px;
+width: 100%;
+font-family: 'latolight', arial, helvetica, sans-serif;
+font-weight:normal;
+margin-top:20px;
+}
+
+#fc_cart_container td.fc_cart_item_image img {
+display:none!Important;
+}
+
+
+#fc_checkout_container #li_save_cc label.fc_checkbox span {
+font-family: 'latolight', arial, helvetica, sans-serif;
+font-weight:normal;
+}
+
+.checkout #fc_checkout_container h2, #fc_receipt_container h2 {
+height: 30px;
+text-indent: -9999px;
+background-position: 0 5px;
+}
+
+.page #fc_cart_container td.fc_cart_item_image img {
+display:none
+}
+.checkout  #fc_checkout_container #fc_payment_container {
+float: left;
+}
+.checkout #li_cc_exp_month select { background: #E4E4E4 4!important; width:47% }
+.checkout  #fc_complete_order_button {
+width: 241px;
+height: 42px; padding:20px 0 0;
+background:   url(http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/images/cart/confirm.gif)
+ no-repeat center top;
+}
+
+#fc_cart_container input.fc_cart_item_quantity {
+padding: 9px 6px;
+border: none;
+background: #E4E4E4!important;
+}
+
+.cart #fc_cart_table .fc_cart_remove_link {
+MARGIN: 9PX 0 0 10PX;
+}
+
+#fc_checkout_container label.fc_radio span, #fc_checkout_container label.fc_checkbox span {
+font-family: 'latolight', arial, helvetica, sans-serif;
+}
+
+.page #fc_checkout_container .fc_account_message {
+font-family: 'latolight', arial, helvetica, sans-serif;
+margin: 15px 0;
+padding: 10px 10px 10px 0;
+border-color: transparent;
+color: #266473;
+background: none;
+}
+.page-template-foxyshop-cart-template-php .chat { display:none }
+
+
+#fc_checkout_container input.fc_text {
+width: 155px;
+padding: 0 6px!important;
+border: 0;
+background: #E4E4E4!important;
+height: 31px;
+line-height: 31px;
+}
+
+.page #fc_complete_order_button:hover {
+background-position: 0 0;
+}
+
+.page #fc_receipt_container span.fc_text {
+font-family: 'latolight', arial, helvetica, sans-serif;
+padding-top:17px;
+}
+
+#fc_receipt_container span.fc_pre {
+padding-bottom: 5px;
+font-weight: bold;
+}
+.page #fc_cart_container a.fc_cart_checkout_paypal img , .page #fc_cart_container span.fc_cart_checkout_or
+{
+	display: none!iMPORTANT;
+}
+
+
+
+.page #fc_checkout_container li fieldset,  .page #fc_receipt_container li fieldset {
+background-color: transparent;
+}

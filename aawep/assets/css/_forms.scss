@@ -1,0 +1,59 @@
+.gform_title { font-size:30px; text-transform: uppercase }
+
+.ginput_left {
+width: 50%;
+float: left;
+}
+
+
+.ginput_right {
+width: 49%;
+float: right;
+}
+
+input[type="submit"] {
+-webkit-appearance: button;
+cursor: pointer;
+}
+
+
+.gform_wrapper .gfield_error input, 
+.gform_wrapper .gfield_error select, 
+.gform_wrapper .gfield_error textarea {
+border-color: #A8021B;
+background-color: #FFFFFF;
+color: #1b1b1b;
+border: 2px solid #A8021B;
+width: 100%;
+
+}
+
+.gform_body .gfield select{
+color: #8F8F8F;
+}
+
+
+.parent-pageid-1830 #tab-monthly-message {
+
+	.archive-select {
+	background: $light-grey;
+	box-shadow:none;
+	height:45px;
+	line-height:45px;
+ 	width: 50%;
+ 	padding-left: 10px;
+
+	&:focus {
+	box-shadow:none;
+	}
+
+
+	
+@media only screen and (max-width: 640px)  {
+	width: 100%;	
+}
+
+}
+
+
+}

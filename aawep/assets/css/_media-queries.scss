@@ -1,0 +1,1298 @@
+@media (min-width: 768px) {
+.page .navbar-nav {
+float: none;
+background: #fff;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+margin-left: 0;
+}
+
+.page .navbar-collapse .navbar-nav>li {
+float: none;
+}
+
+.course-fees {
+height: 410px;
+}
+
+
+.course-fees-widget {
+font-size: 1.2em;
+}
+
+
+
+}
+
+
+
+@media (min-width: 990px) {
+
+
+.courses .content.container {
+padding-right: 0;
+padding-left: 0;
+}
+
+.course-fees-widget {
+font-size: 1.4em;
+height: 95px;
+}
+
+.container {
+width: 100%;
+}
+.course-fees {
+height: 370px;
+}
+}
+
+
+/* LARGE DESKTOP */
+@media (min-width: 1200px) {
+.container {
+width: 1170px;
+}
+
+.course-fees {
+height: 410px;
+}
+
+}
+
+/* X-LARGE DESKTOP */
+@media (min-width: 1370px) {
+.container {
+width: 1170px;
+}
+}
+
+
+
+@media only screen and (max-width:1366px) { 
+
+.course-comparison .header-wrapper { 
+background: url(../images/headers/medium-images/comparison-table.jpg) top center no-repeat; 
+}
+.course-fees {
+height: 526px;
+}
+
+ .cta.student-cta h2{
+margin-right: 20px; 
+}
+
+.cta.student-cta h2 {
+position: absolute;
+bottom: 53px;
+width: 58%;
+text-align: center;
+padding: 0;
+}
+
+
+
+/* HEADERS */
+
+.home .header-wrapper {
+background: url(../images/headers/medium-images/home-header.jpg) top center no-repeat;
+}
+
+.about .header-wrapper {
+background: #333 url(../images/headers/medium-images/header.jpg) top center no-repeat;
+}
+
+.foxyshop .header-wrapper {
+background: #333 url(../images/headers/medium-images/header.jpg) top center no-repeat;
+height: 640px;
+}
+
+.course-payment-types .header-wrapper { 
+background: url(../images/headers/medium-images/course-fees-header.jpg) top center no-repeat; 
+}
+
+.partners .header-wrapper { 
+background: url(../images/headers/medium-images/partners-header.jpg) top center no-repeat; 
+}
+
+.courses .header-wrapper {
+background: url(../images/headers/medium-images/courses-header.jpg) top center no-repeat; 
+}
+
+.newsletter .header-wrapper { 
+background: url(../images/headers/medium-images/newsletter.jpg) top center no-repeat; 
+}
+
+.workshops .header-wrapper { 
+background: url(../images/headers/medium-images/workshop.jpg) top center no-repeat; } 
+
+.wedbizpro .header-wrapper { 
+background: url(../images/headers/medium-images/wedbizpro.jpg) top center no-repeat;
+} 
+
+.wedding-planning-basics-course  .header-wrapper { 
+background: url(../images/headers/medium-images/wedding-planning.jpg) top center no-repeat; 
+} 
+
+.wedding-design-basics-course  .header-wrapper { 
+background: url(../images/headers/medium-images/wedding-course.jpg) top center no-repeat; 
+} 
+
+.wedding-business-basics-course .header-wrapper { 
+background: url(../images/headers/medium-images/wedding-business.jpg) top center no-repeat; 
+}
+ 
+.wedding-professional-advanced-course .header-wrapper { 
+background: url(../images/headers/medium-images/wedding-course.jpg) top center no-repeat; 
+} 
+
+.faqs .header-wrapper { 
+background: url(../images/headers/medium-images/faq.jpg) top center no-repeat; 
+}
+
+.faqs2 .header-wrapper { 
+background: url(../images/headers/medium-images/faq2.jpg) top center no-repeat; 
+} 
+
+.contact .header-wrapper { 
+background: url(../images/headers/medium-images/contact.jpg) top center no-repeat; 
+} 
+
+.business-video-series .header-wrapper { 
+background: url(../images/headers/medium-images/business-video.jpg) top center no-repeat; 
+} 
+
+.asedm .header-wrapper { 
+background: url(../images/headers/medium-images/asedm.jpg) top center no-repeat; 
+} 
+
+.coaching .header-wrapper  { 
+background: url(../images/headers/medium-images/coaching.jpg) top center no-repeat; 
+} 
+
+.cart .header-wrapper, .checkout .header-wrapper { 
+background: url(../images/headers/header-shop.jpg) top center no-repeat; 
+}
+
+.students .header-wrapper { 
+background: url(../images/headers/medium-images/student-praise.jpg) top center no-repeat; 
+} 
+
+.tutors .header-wrapper { 
+background: url(../images/headers/medium-images/tutors-header.jpg) top center no-repeat; 
+} 
+
+.success-stories .header-wrapper { 
+background: url(../images/headers/medium-images/success-stories-header.jpg) top center no-repeat;
+ } 
+
+.support .header-wrapper { 
+background: url(../images/headers/medium-images/support-header3.jpg) top center no-repeat;
+ } 
+
+.course-payment-types .header-wrapper {
+background: url(../images/headers/medium-images/course-fees.jpg) top center no-repeat;
+}
+
+.partners .header-wrapper { 
+background: url(../images/headers/medium-images/partners-header2.jpg) top center no-repeat; 
+} 
+
+.student-of-the-month .header-wrapper { 
+background: url(../images/headers/medium-images/student-month-header.jpg) top center no-repeat; 
+} 
+ 
+
+.accredited-special-event-designer-master-course .header-wrapper { 
+background: url(../images/headers/medium-images/asedm.jpg) top center no-repeat; 
+}
+
+.the-refine-workshop .header-wrapper, .the-refine-workshop-nace .header-wrapper { 
+background: url(../images/headers/medium-images/cwp.jpg) top center no-repeat; 
+} 
+
+.certification .header-wrapper { 
+background: url(../images/headers/medium-images/certification.jpg) top center no-repeat; 
+} 
+
+.educational-partners .header-wrapper { 
+background: url(../images/headers/medium-images/educational-partners.jpg) top center no-repeat; 
+} 
+
+.comparison-table .header-wrapper { 
+background: url(../images/headers/medium-images/comparison-table.jpg) top center no-repeat; 
+}
+
+.faqs .header-wrapper { 
+background: url(../images/headers/medium-images/faqs.jpg) top center no-repeat; 
+}  
+
+.recommended-conferences .header-wrapper,  .approved-conferences .header-wrapper { 
+background: url(../images/headers/medium-images/recommended-conferences.jpg) top center no-repeat; 
+}  
+
+.success-stories .header-wrapper { 
+background: url(../images/headers/medium-images/success-stories.jpg) top center no-repeat; 
+}  
+
+.wedding-business-video-series .header-wrapper { 
+background: url(../images/headers/medium-images/business-video-series.jpg) top center no-repeat; 
+}  
+
+.email-coaching-with-alison-howard .header-wrapper { 
+background: url(../images/headers/medium-images/email-coaching.jpg) top center no-repeat; 
+}  
+
+.hourly-coaching-alison-howard .header-wrapper { 
+background: url(../images/headers/medium-images/hourly-coaching.jpg) top center no-repeat; 
+}  
+
+.the-alison-howard-mentor-program .header-wrapper { 
+background: url(../images/headers/medium-images/mentor-program.jpg) top center no-repeat; 
+} 
+
+.courses-self-study .header-wrapper { 
+background: url(../images/headers/medium-images/self-study.jpg) top center no-repeat; 
+} 
+
+.courses-university .header-wrapper { 
+background: url(../images/headers/medium-images/universities.jpg) top center no-repeat; 
+} 
+
+
+.certification-courses  .header-wrapper{ 
+background: url(../images/headers/medium-images/certification-courses.jpg) top center no-repeat; 
+} 
+
+.event-planning-basics-course  .header-wrapper{ 
+background: url(../images/headers/medium-images/event-planner-basics.jpg) top center no-repeat; 
+} 
+
+
+.pensylvania-state-university  .header-wrapper{ 
+background: url(../images/headers/medium-images/penn.jpg) top center no-repeat; 
+} 
+
+.south-western-career-academy .header-wrapper{ 
+background: url(../images/headers/medium-images/south-west.jpg) top center no-repeat; 
+} 
+
+.wedding-and-event-planning-design-and-business-course-2 .header-wrapper{ 
+background: url(../images/headers/medium-images/wedding-and-event-planning-design-and-business-course.jpg) top center no-repeat; 
+} 
+
+.wedding-planning-event-planning-business-course-2 .header-wrapper{ 
+background: url(../images/headers/medium-images/wedding-planning-event-planning-business-course-3.jpg) top center no-repeat; 
+} 
+
+.wedding-planning-design-business-course .header-wrapper{ 
+background: url(../images/headers/medium-images/wedding-planning-design-business-course.jpg) top center no-repeat; 
+} 
+
+.sepa-student-event-planners-association .header-wrapper{ 
+background: url(../images/headers/medium-images/sepa.jpg) top center no-repeat; 
+} 
+
+.home .header-wrapper {
+height: 680px;
+}
+
+.home .twitter-cta p {
+font-size: .9em;
+}
+
+
+.page .header-wrapper {
+background-size: 1366px;
+}
+
+.logo {
+margin: 30px auto 28px;
+}
+
+#home-cta h2 {
+margin: 31px 0 20px;
+font-size:21px!important;
+}
+
+#home-cta .large-button {
+font-size: 1.3em;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width:1200px) { 
+#home-cta {
+padding-right: 25PX;
+padding-left: 25PX;
+}
+
+a.list-group-item {
+font-size: .9em;
+}
+
+.contact-form-wrap .col-md-12 {
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.reversed .payment-ctas p {
+font-size:1.6em
+}
+.course-fees {
+height: 400px;
+}
+}
+
+
+@media only screen and (max-width:1024px) { 
+
+
+.course-fees {
+height: 389px;
+}
+
+a.cta h2 {
+font-size: 1.4em;
+padding-top: 88px;
+}
+
+
+.home .header-wrapper {
+background-position: -290px center;
+}
+
+.home .twitter-cta p {
+font-size: .8em;
+}
+}
+
+
+
+@media only screen and (max-width:990px) { 
+
+.gfield_checkbox li {
+width: 25%;
+}
+
+.course-fees-widget {
+height: 75px;
+}
+
+
+.course-fees {
+height: 400px;
+}
+
+
+.home .cta.wedding-cta h2:before {
+
+background-size: 56%;
+}
+.reversed .payment-ctas p {
+font-size:1.8em
+}
+
+
+.courses a.cta h2 {
+padding: 54px 3% 0;
+font-size: 1.4em;
+}
+.cta.student-cta h2 {
+position: relative;
+bottom: auto;
+width: 39%;
+text-align: left;
+padding: 0;
+}
+
+
+.video-trigger {
+width: 170px;
+}
+
+#gform_submit_button_2 { max-width:none}
+a.cta.student-cta h2 {
+padding-top: 0;
+}
+
+.ginput_left , .ginput_right{
+width: 100%;
+
+}
+.cta.wedding-cta h2:before {
+background-size: 120px;
+}
+
+a.cta h2 {
+padding-top: 109px;
+padding: 15px 3% 0;
+font-size: 1.2em;
+}
+
+
+.cta.student-cta h2{
+margin-right: 20px;
+}
+
+
+
+.home .twitter-cta p {
+font-size: 1.1em;
+}
+.page .header-wrapper {
+background-size: COVER;
+}
+
+
+.logo-container {
+margin: 0 auto;
+}
+
+
+.page-header .row-fluid h1 {
+padding-left: 2%;
+}
+
+.video-cta {  
+
+}
+
+
+.navbar-collapse {
+background: #FFF;
+}
+
+.home .navbar.internal .quickLinks {
+width: AUTO;
+}
+
+#home-cta {
+display: block;
+}
+
+#home-cta {
+display: none!important;
+}
+
+
+.home .navbar.internal .navbar-header.mobile-only .navbar-brand {
+display: none;
+}
+
+.container {
+width: 100%;
+}
+
+
+.mobile-only  {
+display:block
+}
+
+.page .container>.navbar-header, 
+.page  .container-fluid>.navbar-header.mobile-only{
+width: 100%;
+position: relative;
+display: block!important;
+}
+
+.navbar {
+display:block 
+}
+
+
+
+
+#play-large img {
+width: 160px;
+height: auto;
+}
+
+
+
+.page-header .row-fluid {
+display: table;
+height: 100%;
+width: 100%;
+
+}
+
+
+.page-header .row-fluid h1 {
+top: auto;
+position: relative;
+left: auto;
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+display: none;
+}
+
+
+
+
+.header-wrapper {
+height:500px!important;
+background-size:cover!important;
+}
+
+
+.home .header-wrapper {
+background: url(../images/home-header-med.jpg) top center no-repeat;
+}
+
+
+.navbar-toggle.mobile-only {
+display:block 
+}
+
+.navbar-toggle.desktop-only#display-nav {
+display:none
+}
+
+.desktop-only { 
+display:none
+}
+
+.home .navbar.internal .navbar-header {
+display:none;
+}
+
+
+.navbar.internal .quickLinks {
+}
+
+
+
+#sidebar {
+display: none;
+}
+
+
+.home .navbar.internal .navbar-header.mobile-only {
+display:block;
+background: #fff!important;
+webkit-box-shadow: 0 3px 2px 2px rgba(0,0,0,.1);
+box-shadow: 0 3px 2px 2px rgba(0,0,0,.1);
+}
+
+
+
+.home .navbar.internal .navbar-header.mobile-only .navbar-brand {
+display: block
+}
+
+
+#home-cta {
+display: block;
+}
+
+
+
+#display-nav {
+display: block;
+}
+
+.navbar-header {
+width: 100%;
+-webkit-box-shadow: 0 3px 2px 2px rgba(0,0,0,.1);
+box-shadow: 0 3px 2px 2px rgba(0,0,0,.1);
+}
+
+
+#enrol, #login {
+background: #fff;
+display: inline-block;
+float: left;
+clear: none;
+}
+
+
+
+
+
+.contact-form-wrap .container {
+padding-left: 0;
+padding-right: 0;
+}
+
+.cta.cta-white.video,
+.cta.cta-white.video:hover {
+background-size: 67px;
+}
+
+
+.video-caption {
+width: 78%;
+}
+
+.payment-ctas {
+height: auto;
+margin-bottom: 20px;
+}
+
+a.virtual-campus.courses-cta h2:before {
+top: 84px;
+}
+
+.faqs a.cta h2 {
+padding: 93px 3% 0;
+}
+
+.nav-tabs > li > a {
+margin-right: 7px;
+margin-top: 4px;
+font-size: 11px;
+}
+
+
+}
+
+@media only screen and (max-width: 1130px) and (min-width: 992px)  { 
+.nav-tabs > li > a {
+margin-right: 7px;
+margin-top: 4px;
+font-size: 13px;
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+.home .cta.wedding-cta h2:before {
+background-size: 100%;
+}
+
+
+
+
+
+
+.img-wrap {
+height: 450px;
+}
+
+/*.foxyshop #tab-container .chat ,
+.page-template-foxyshop-checkout-template-php .chat{ 
+display:none !important;
+}*/
+
+.logo-wrapper {
+background-size: 50%;
+}
+
+.enrollment-links a.brochure-btn {
+background-image: none;
+padding-left: 0!important;;
+}
+.courses a.cta h2 {
+padding: 93px 3% 0;
+font-size: 1.6em;
+}
+
+
+.checkout #fc_checkout_container {
+background: url(../images/header-checkout_b.gif) no-repeat left top!important
+}
+
+
+
+.home .header-wrapper {
+height: 487px!important;
+}
+
+.tab-content {
+padding: 4px 0 10px;
+}
+
+/* .page-header .row-fluid h1 {
+display:none;
+}
+*/
+
+.nav-tabs > li {
+float: left;
+width: 100%;
+margin-bottom: -1px;
+margin: 0 .3em .2em 0;
+}
+
+
+.nav-tabs > li > a {
+margin-top: 4px;
+font-size: .74em;
+}
+
+
+.cta-white , 
+.cta-white:hover{
+background-size:80px;
+}
+
+.header-wrapper {
+height: 400px!important;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+background-color: #000;
+}
+
+
+.nav-tabs > li > a {
+font-size: .6em;
+padding: 0;
+margin: 0;
+background: #000;
+border-radius: 0;
+padding: 1.8em 1em;
+cursor: pointer;
+}
+
+
+
+.nav-tabs > li > a:hover {
+background:#444;
+border:1px solid #444}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: #FFF;
+background-color: #000;
+}
+
+
+
+.navbar-toggle {
+width: 61px;
+}
+
+
+
+.home .navbar.internal .quickLinks {
+width: auto;
+}
+
+
+.enrollment-links button, .enrollment-links a {
+width: 100%;
+margin-bottom: 10px;
+}
+
+.enrollment-links a.back { width:auto }
+
+
+
+.header-video--media {
+display: none;
+}
+
+.tabbed-content-margin {
+margin-top: 30px;
+}
+
+
+
+
+
+
+.quickLinks li a {
+width: auto;
+}
+
+
+
+.payment-plans {
+width: 100%;
+padding: 7px 9px;
+}
+
+
+.nav-tabs {
+border-bottom: transparent;
+background: transparent;
+}
+
+
+.tab-nav-bg {
+background: #1b1b1b;
+height: 58px;
+display: none;
+}
+
+.page-template-templatesreosurces-php .cta.about-cta h2, .page-template-templatesfaqs-php .cta.about-cta h2 {
+padding-top: 83px;
+background-size: 34%;
+}
+
+
+/* HEADERS */
+
+.the-refine-workshop .header-wrapper, .the-refine-workshop-nace .header-wrapper { 
+background: url(../images/headers/small-images/cwp.jpg) top center no-repeat; 
+} 
+
+
+.course-comparison .header-wrapper { 
+background: url(../images/headers/large-images/comparison-table.jpg) top center no-repeat; 
+}
+
+.home .header-wrapper {
+background: url(../images/headers/small-images/home-header.jpg) top center no-repeat;
+}
+
+.about .header-wrapper {
+background: #333 url(../images/headers/small-images/header.jpg) top center no-repeat;
+}
+
+.foxyshop .header-wrapper {
+background: #333 url(../images/headers/small-images/header.jpg) top center no-repeat;
+height: 640px;
+}
+
+.course-payment-types .header-wrapper { 
+background: url(../images/headers/small-images/course-fees-header.jpg) top center no-repeat; 
+}
+
+.partners .header-wrapper { 
+background: url(../images/headers/small-images/partners-header.jpg) top center no-repeat; 
+}
+
+.courses .header-wrapper {
+background: url(../images/headers/small-images/courses.jpg) top center no-repeat; 
+}
+
+.newsletter .header-wrapper { 
+background: url(../images/headers/small-images/newsletter.jpg) top center no-repeat; 
+}
+
+.workshops .header-wrapper { 
+background: url(../images/headers/small-images/workshop.jpg) top center no-repeat; } 
+
+.wedbizpro .header-wrapper { 
+background: url(../images/headers/small-images/wedbizpro.jpg) top center no-repeat;
+} 
+
+.wedding-planning-basics-course  .header-wrapper { 
+background: url(../images/headers/small-images/wedding-planning.jpg) top center no-repeat; 
+} 
+
+.wedding-design-basics-course  .header-wrapper { 
+background: url(../images/headers/small-images/wedding-course.jpg) top center no-repeat; 
+} 
+
+.wedding-business-basics-course .header-wrapper { 
+background: url(../images/headers/small-images/wedding-business.jpg) top center no-repeat; 
+}
+ 
+.wedding-professional-advanced-course .header-wrapper { 
+background: url(../images/headers/small-images/wedding-course.jpg) top center no-repeat; 
+} 
+
+.faqs .header-wrapper { 
+background: url(../images/headers/small-images/faq.jpg) top center no-repeat; 
+}
+
+.faqs2 .header-wrapper { 
+background: url(../images/headers/small-images/faq2.jpg) top center no-repeat; 
+} 
+
+.contact .header-wrapper { 
+background: url(../images/headers/small-images/contact.jpg) top center no-repeat; 
+} 
+
+.business-video-series .header-wrapper { 
+background: url(../images/headers/small-images/business-video.jpg) top center no-repeat; 
+} 
+
+.asedm .header-wrapper { 
+background: url(../images/headers/small-images/asedm.jpg) top center no-repeat; 
+} 
+
+.coaching .header-wrapper  { 
+background: url(../images/headers/small-images/coaching.jpg) top center no-repeat; 
+} 
+
+.cart .header-wrapper, .checkout .header-wrapper { 
+background: url(../images/headers/header-shop.jpg) top center no-repeat; 
+}
+
+.students .header-wrapper { 
+background: url(../images/headers/small-images/student-praise.jpg) top center no-repeat; 
+} 
+
+.tutors .header-wrapper { 
+background: url(../images/headers/small-images/tutors-header.jpg) top center no-repeat; 
+} 
+
+.success-stories .header-wrapper { 
+background: url(../images/headers/small-images/success-stories-header.jpg) top center no-repeat;
+ } 
+
+.support .header-wrapper { 
+background: url(../images/headers/small-images/support-header3.jpg) top center no-repeat;
+ } 
+
+.course-payment-types .header-wrapper {
+background: url(../images/headers/small-images/course-fees.jpg) top center no-repeat;
+}
+
+.partners .header-wrapper { 
+background: url(../images/headers/small-images/partners-header2.jpg) top center no-repeat; 
+} 
+
+.student-of-the-month .header-wrapper { 
+background: url(../images/headers/small-images/student-month-header.jpg) top center no-repeat; 
+} 
+
+.accredited-special-event-designer-master-course .header-wrapper { 
+background: url(../images/headers/small-images/asedm.jpg) top center no-repeat; 
+}
+
+.certification .header-wrapper { 
+background: url(../images/headers/small-images/certification.jpg) top center no-repeat; 
+} 
+
+.educational-partners .header-wrapper { 
+background: url(../images/headers/small-images/educational-partners.jpg) top center no-repeat; 
+} 
+
+.comparison-table .header-wrapper { 
+background: url(../images/headers/small-images/comparison-table.jpg) top center no-repeat; 
+}
+
+.faqs .header-wrapper { 
+background: url(../images/headers/small-images/faqs.jpg) top center no-repeat; 
+}  
+
+.recommended-conferences .header-wrapper ,  .approved-conferences .header-wrapper{ 
+background: url(../images/headers/small-images/recommended-conferences.jpg) top center no-repeat; 
+}  
+
+.success-stories .header-wrapper { 
+background: url(../images/headers/small-images/success-stories.jpg) top center no-repeat; 
+}  
+
+
+.wedding-business-video-series .header-wrapper { 
+background: url(../images/headers/small-images/business-video-series.jpg) top center no-repeat; 
+}  
+
+.email-coaching-with-alison-howard .header-wrapper { 
+background: url(../images/headers/small-images/email-coaching.jpg) top center no-repeat; 
+}  
+
+.hourly-coaching-alison-howard .header-wrapper { 
+background: url(../images/headers/small-images/hourly-coaching.jpg) top center no-repeat; 
+}  
+
+.the-alison-howard-mentor-program .header-wrapper { 
+background: url(../images/headers/small-images/mentor-program.jpg) top center no-repeat; 
+} 
+
+
+.sepa-student-event-planners-association .header-wrapper{ 
+background: url(../images/headers/small-images/sepa.jpg) top center no-repeat; 
+} 
+
+
+
+
+.courses-university .header-wrapper { 
+background: url(../images/headers/small-images/universities.jpg) top center no-repeat; 
+} 
+
+.courses-university .header-wrapper { 
+background: url(../images/headers/small-images/universities.jpg) top center no-repeat; 
+} 
+
+
+
+.certification-courses .header-wrapper  { 
+background: url(../images/headers/small-images/certification-courses.jpg) top center no-repeat; 
+} 
+
+.event-planning-basics-course  .header-wrapper{ 
+background: url(../images/headers/small-images/event-planner-basics.jpg) top center no-repeat; 
+} 
+
+
+.pensylvania-state-university  .header-wrapper{ 
+background: url(../images/headers/small-images/penn.jpg) top center no-repeat; 
+} 
+
+.south-western-career-academy .header-wrapper{ 
+background: url(../images/headers/small-images/south-west.jpg) top center no-repeat; 
+} 
+
+.wedding-and-event-planning-design-and-business-course-2 .header-wrapper{ 
+background: url(../images/headers/small-images/wedding-and-event-planning-design-and-business-course.jpg) top center no-repeat; 
+} 
+
+.wedding-planning-event-planning-business-course-2 .header-wrapper{ 
+background: url(../images/headers/small-images/wedding-planning-event-planning-business-course-3.jpg) top center no-repeat; 
+} 
+
+.wedding-planning-design-business-course .header-wrapper{ 
+background: url(../images/headers/small-images/wedding-planning-design-business-course.jpg) top center no-repeat; 
+} 
+
+}
+
+
+
+@media only screen and (max-width:650px) { 
+
+.gfield_checkbox li {
+width: 33.33333333333333%;
+}
+
+}
+
+
+@media (max-width: 490px) {
+
+.gfield_checkbox li {
+width: 50%;
+
+}
+
+
+
+
+.cart #fc_cart_table thead th, 
+#fc_cart_table #fc_cart_foot_total td {
+padding: 10px!important;
+}
+
+.cart #fc_cart_container input.fc_cart_item_quantity {
+width: 2.5em!important;
+}
+
+
+.video-trigger {
+width: 110px;
+}
+
+.img-wrap {
+height: 270px;
+}
+
+#mc_embed_signup input[type="email"].form-control {
+width: 63%;
+}
+
+
+.form-inline input[type="submit"].form-control {
+width: 36%;
+}
+
+
+.lightbox-modal .row h2 {
+text-transform:uppercase;
+margin: 100px 0 0 0;
+}
+
+.partner-logo .img-responsive {
+height: 150px;
+}
+
+.profile-image-wrap img {
+margin-top: 100px;
+}
+.container.content {
+padding-right:0;
+padding-left:0;
+}
+.page-header .row-fluid h1 {
+font-size: 2.2EM;
+}
+
+
+.header-wrapper {
+height: 260px!important;
+}
+
+a.cta.student-cta h2 {
+padding-top: 0;
+}
+
+
+
+
+
+.cta.student-cta h2{
+padding: 0 3% 0;
+}
+
+
+
+#fc_cart_container {
+background: none;
+}
+
+#fc_cart_controls_top, #fc_cart_controls_bottom {
+margin: 12px 0 15px 0;
+}
+
+
+a.cta h2:before {
+top: 93px;
+}
+
+
+a.cta h2 {
+padding: 77px 9% 0;
+font-size: 1.2em;
+}
+
+
+.tabbed-content-margin {
+margin-top: 0;
+}
+
+
+.cta {
+height: 268px;
+}
+
+
+.courses .cta {
+height: 338px;
+}
+
+
+.online-chat {
+background: #fff;
+}
+
+
+#play-large img {
+width: 110px; 
+height:auto 
+}
+
+.navbar-toggle {
+width: 59px;
+}
+
+
+li#login {
+border-left: none;
+}
+
+.quickLinks li a {
+font-size: 12px;
+padding: 15px 4px 13px 40px;
+}
+
+
+.quickLinks li , .quickLinks li a {
+width: auto;
+}
+
+
+ body { 
+ font-size: small;  
+ }
+ 
+ 
+.tabbed-content-margin {
+margin-top: 30px;
+}
+
+.navbar.internal  .quickLinks {
+display:none!important;
+}
+
+}
+
+
+@media (max-width: 400px) {
+
+#gform_wrapper_6 #input_6_42 label {
+	font-size: 12px; 
+}
+
+.page-template-templatesreosurces-php .cta.about-cta h2, .page-template-templatesfaqs-php .cta.about-cta h2 {
+padding-top: 83px;
+background-size: 45%;
+}
+
+
+.home .header-wrapper {
+background: url(../images/home-header-small.jpg) center 47px no-repeat;
+}
+
+
+.checkout #fc_checkout_container #customer_country_flag + button.fc_foxycomplete_combobox ,
+.checkout #fc_checkout_container input.fc_location + button.fc_foxycomplete_combobox
+{
+left:165px!important
+}
+
+.checkout  #fc_checkout_container input#customer_state_name, .checkout  #fc_checkout_container input#customer_country_name {
+width: 165px!important;
+}
+
+.ie9 .checkout  #fc_checkout_container input#customer_state_name, 
+.ie9 .checkout  #fc_checkout_container input#customer_country_name {
+width: 162px!important;
+}
+
+
+.checkout #li_cc_exp_month select {
+width: 46%!important;
+}
+
+.cart #fc_cart_head {
+font-size: .8em;
+}
+
+
+#fc_login_register_container h2 {
+background: url(../images/step1_b.gif) no-repeat left top!important;
+}
+
+
+.checkout #fc_customer_billing_container h2 {
+background: url(../images/billing-address.gif) no-repeat left top!important;
+}
+
+.checkout #fc_shipping_container h2 {
+background: url(../images/step3_b.gif) no-repeat left top!important;
+}
+
+
+.checkout #fc_payment_container h2 {
+background: url(../images/step4_b.gif) no-repeat left top!important;
+}
+
+
+
+.cart #fc_cart_container li.fc_cart_item_option {
+background: none;
+color: #666;
+font-size: 1em;
+line-height: 1em;
+}
+
+
+
+.cart #fc_cart_container {
+background-image: none!important;
+}
+
+
+#fc_cart_container #fc_cart_controls_top a.fc_cart_update, 
+#fc_cart_container #fc_cart_controls_bottom a.fc_cart_update {
+width: 96px!important;
+background-size: 100%!important;
+}
+
+}
+

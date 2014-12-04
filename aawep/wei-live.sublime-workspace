@@ -1,0 +1,1191 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prim",
+				"primary-color"
+			],
+			[
+				"template",
+				"template_directory"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"conte",
+				"contentHeight"
+			],
+			[
+				"side",
+				"sidebarHeight"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"firs",
+				"first-child"
+			],
+			[
+				"style",
+				"stylesheet_directory"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"tr",
+				"transiton"
+			],
+			[
+				"pr",
+				"primary-color"
+			],
+			[
+				"wpQ",
+				"WP_Query"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"get_post_th",
+				"get_the_post_thumbnail"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"templa",
+				"template_directory"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "foxyshop-single-product.php",
+			"settings":
+			{
+				"buffer_size": 17062,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/aa-monthly-message.php",
+			"settings":
+			{
+				"buffer_size": 2564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "single-cat-ask-alison.php",
+			"settings":
+			{
+				"buffer_size": 2305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 4471,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 25439,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "single-ask-alison.php",
+			"settings":
+			{
+				"buffer_size": 2404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 858,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/_forms.scss",
+			"settings":
+			{
+				"buffer_size": 775,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// DOM Ready \nvar courseDetails = jQuery('#tab-container'),\npaymentContainer = jQuery('#payment-container'),\nformButton = jQuery('#fillForm'),\nenrolmentWrap = jQuery('#enrolmentWrap.contact-form-wrap'),\ngravityForm = jQuery('body.foxyshop .paymentPage').find('div#payment-container');\n\n\nfunction twitterfix() {\n\n    if(typeof jQuery(\"#twitter-widget-0\").contents().find(\".load-more\").html() == 'undefined') {\n        setTimeout(twitterfix, 500);\n        }\n    else {\n        var head = jQuery(\"#twitter-widget-0\").contents().find(\"head\");\n        head.append('<link type=\"text/css\" rel=\"stylesheet\" href=\"http://www.weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/assets/css/twitter.css\">');\n        head.append('<style>.h-entry.tweet.with-expansion.customisable-border {border-bottom: 1px solid #EFEEEE;}</style>');\n       // head.append('<script type=\"text/javascript\">window.setTimeout(function(){ document.location.reload(true); }, 60000); </script>');\n        }\n}\n\n\n\njQuery(document).ready(function(jQuery) {  \n\n  twitterfix();\n\n\njQuery(\"#vsTable_62015 tr\").eq(0).addClass('table-header');\njQuery(\"form\").attr('novalidate','novalidate');\n\n\n\n\njQuery(\"input[type='checkbox']\").addClass('styled-checkbox');\njQuery('#menu-main-navigation-1 li.menu-item-55 a').click(\n  function(e) {\n  e.preventDefault();\n  }\n);\n\njQuery('.affiliate-signup form').validate({\n  rules: {\n    username: {\n      required: true,\n      email: true\n    }\n  }\n});\n\njQuery(\".affiliate-signup input[type='text'], .affiliate-signup select, .affiliate-signup textarea\").addClass('form-control');\njQuery(\".input\").addClass('form-control');\n\njQuery(\".fc_text, .medium\").addClass(\"form-control\");\n\n// jQuery(\".pensylvania-state-university #tab-container li.:nth-child(2), \n//   .pensylvania-state-university #tab-container li.tab:nth-child(3), .pensylvania-state-university  #tab-container li.tab:nth-child(4)\").css('display', 'none');\n\n// jQuery( \"input:not(:checked) + span\" ).css( \"background-color\", \"yellow\" );\n\njQuery( \".pensylvania-state-university #tab-container .etabs li:not(:first-child)\" ).css( \"display\", \"none\" );\njQuery( \".south-western-career-academy #tab-container .etabs li:not(:first-child)\" ).css( \"display\", \"none\" );\n\n\n\njQuery('#tab-container .video-container').wrap(\"<div class='wrap-all-div' />\");\njQuery('.accredited-special-event-designer-master-course #tab-container .col-md-3, .accredited-wedding-planner-master-course #tab-container .col-md-3').removeClass('col-md-3').addClass(\"col-md-4\");\n\n\n\n\n\n$('#video-trigger').click(function(e) {\n  e.preventDefault();\n  $('.parent-pageid-1830 .wei-live').fadeOut();\n})\n\njQuery(\".gform_wrapper iframe\").unwrap();\n\n jQuery('.enrollment-links a.back').click(function(){\n        parent.history.back();\n        return false;\n    });\n  \n  \n// site preloader -- also uncomment the div in the header and the css style for #preloader\n\n\n});\n\n\n\n\n\n// NAV ANIMATED\n\nvar navDuration = 150; //time in miliseconds\n \n jQuery('#menu-main-navigation-1 li a').hover(function() {\n          jQuery(this).animate({ paddingLeft : \"35px\" }, navDuration);            \n      }, function() {\n          jQuery(this).animate({paddingLeft : \"30px\" }, navDuration);\n      });\n    \n    \n// FORM SUBMISSION GRAVITY FORM\njQuery(document).on('gform_confirmation_loaded', function(e, form_id){\nif(form_id == 1 || form_id == 6  ) {\npaymentContainer.fadeIn();\nenrolmentWrap.css('display','none');\n}\n});\n\n\n\n// FORM PAYPAL\n\njQuery(\".paypalCheck\").click(function (e) {\n                \n                var all_answered = true;\n                //Selecting Each radio button\n                jQuery(\"input:radio\").each(function () {\n                    var name = jQuery(this).attr(\"name\");\n                    //Checking whether radio button is selected and based on selection setting variable to true or false\n                    if (jQuery(\"input:radio[name=\" + name + \"]:checked\").length == 0) {\n                        all_answered = false;\n                    }\n                });\n                //Show the error message to user if all questions are not answered\n                if (all_answered == false) {\n          e.preventDefault();\n                    alert('You need to select a payment option');\n                }\n            })\n      \n      \n\njQuery(function() {\n\njQuery('.gfield_select option').eq(0).attr('disabled','disabled');\n\n\n/*\n    Solution posted by John :: http://stackoverflow.com/users/1420197/john\n    =====================================\n    http://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery/17259514#17259514\n    \n    Follow me on Github: https://github.com/IonicaBizau\n\n*/\n\nvar solutions = [\n    function () { location.reload(); },\n    function () { history.go(0); },\n    function () { location.href = location.href; },\n    function () { location.href = location.pathname; },\n    function () { location.replace(location.pathname); },\n    function () { location.reload(false); },\n];\n\njQuery(\"[data-func]\").on(\"click\", function () {\n    solutions[parseInt(jQuery(this).attr(\"data-func\"))]();\n});\n\n\n\n\n jQuery('iframe').each(function() {\n        jQuery(this).attr('src', jQuery(this).data('src'));\n    });\n  \n  \n// SHOW GRAVITY FORM ON BTN CLICK\n// jQuery('form.foxyshop_product').attr('target','_blank');\n\nformButton.click(function(e) { \ne.preventDefault();\ncourseDetails.remove();\nwindow.scroll(0, 600);\njQuery('div#enrolmentWrap').fadeIn();\n\n}\n);\n\n\njQuery('#tab-container').easytabs({animate: false});\njQuery('#payment-container').easytabs({animate: false});\n\n\n\n// TABBED NAV\n\n\n\n\njQuery(\"table\").addClass(\"table table-striped\");\njQuery(\"form\").addClass(\"form-inline\");\n\njQuery(\".fc_text, .medium\").addClass(\"form-control\");\njQuery(\"label\").addClass(\"control-label\");\n\n\n  // SVG fallback\n  // toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script#update\n  \n  /* if (!Modernizr.svg) {\n    var imgs = document.getElementsByTagName('img');\n    for (var i = 0; i < imgs.length; i++) {\n      if (/.*\\.svgjQuery/.test(imgs[i].src)) {\n        imgs[i].src = imgs[i].src.slice(0, -3) + 'png';\n      }\n    }\n  }\n*/\n\n\n});\n\n\n\n\n\n\n\n\n\njQuery(document).ready(function () {\n\n jQuery('li.required input').addClass('required');\njQuery(\"input.required\").prop('required',true);\n/*\njQuery(\"#gform_1\").validate(\n\n{\n\nrules: {\ninput_1: \"required\",    \ninput_2: \"required\",\n\n},\n\nmessages: {\ninput_1: \"Please Enter a Company Name\",\ninput_2: \"Please Enter Your First Name\",\n\n},\n\nsubmitHandler: function(form2){\njQuery(form2).ajaxSubmit({\nsuccess: function() { \n  \n  jQuery('#payment-container').fadeIn();\n  jQuery('#enrolmentWrap.contact-form-wrap').hide();\n\n\n} \n}); \n}\n    \n    \n}\n\n\n);\n*/\n\nif ( jQuery( \"#gform_confirmation_wrapper_1\").is( \".gform_confirmation_wrapper\" ) ) {\n  jQuery(\"#tab-container\").hide();\n  paymentContainer.fadeIn();\n  enrolmentWrap.hide();\n \n}\n\n// jQuery(\"#gform_1\").validate();\n\n\n/*\n\n    \nvar courseDetails = jQuery('#tab-container'),\npaymentContainer = jQuery('#payment-container'),\nenrolmentWrap = jQuery('#enrolmentWrap.contact-form-wrap');\n  \nvar validInput = jQuery('input.required-field');\n\n\njQuery('#gform_1').submit(function() {\n    var errors = 0;\n    validInput.map(function(){\n         if( !jQuery(this).val() ) {\n              jQuery(this).addClass('error');\n              errors++;\n        } else if (jQuery(this).val()) {\n              jQuery(this).removeClass('error');\n        }   \n    });\n    if(errors > 0){\n       alert('Fields Rquired');\n        return false;\n    }\n  alert('Success');\n  return true;\n});\n*/\n\n\n\n/*\njQuery('#gform_1').on(  'submit', function(e) {\n\n\n    // check validation\n  if (jQuery(validInput).val() =='' ) {\n    validInput.addClass('error');\n    alert('Please enter required fields');\n    return false;\n    }\n  \n  \n  else if (jQuery(validInput).val() > 5 ) {\n    validInput.removeClass('error');\n\n    }\n\n  alert('Success');\n  paymentContainer.fadeIn();\n  enrolmentWrap.hide();\n\n  return true;\n\n  \n});\n\n*/\n\n\n/*\n\n\njQuery('li.gfield_contains_required input').addClass('required');\n\njQuery('#gform_1').submit(function() {\n    var errors = 0;\n    jQuery(\"#gform_1 input\").map(function(){\n         if( !jQuery(this).val() ) {\n              jQuery(this).addClass('error');\n              errors++;\n        } else if (jQuery(this).val()) {\n              jQuery(this).removeClass('error');\n        }   \n    });\n    if(errors > 0){\n       alert('Fields Rquired');\n        return false;\n    }\n    // do the ajax..    \n});\n\n\n\njQuery('li.gfield_contains_required input').addClass('required-field');\n    \nvar courseDetails = jQuery('#tab-container'),\npaymentContainer = jQuery('#payment-container'),\nenrolmentWrap = jQuery('#enrolmentWrap.contact-form-wrap');\n  \nvar validInput = jQuery('input.required-field');\n\n\n\n*/\n\n\n \n\njQuery('.foxyshop_addon_container').prepend('<p class=\"full-width\"><strong>ADDITIONAL PRODUCTS:</strong></p>')\n\n\njQuery(\"a[title='Logout']\").addClass('logout-link');\n\n\n  \njQuery('select.variation-payment-plan-options, .variation-select-the-amount-of-hours, select.variation-payment-plans,  .foxyshop_quantity').addClass('form-control');\n\n  jQuery('#gform_wrapper_2').addClass('container');\n\n\njQuery('#myTab a').click(function (e) {\ne.preventDefault()\njQuery(this).tab('show')\n});\n\n\n\n\n\n\nvar positiveMargin = false;\n\njQuery('#display-nav').click(function () {\n\n if(jQuery(window).scrollTop() > 300 ) {\n       jQuery('html,body').animate({ scrollTop: jQuery('body').offset().top }, 'slow').delay(700);\n       // getData();\n   }\n   \n   \n\n    if (!positiveMargin) {\n        var marginLeft = \"225px\";\n        positiveMargin = true;\n    }\n    else {\n        var marginLeft = \"0px\";\n        positiveMargin = false;\n    }\n     jQuery('#sidebar-links').animate({\n               marginLeft: marginLeft\n               }, {\n               duration: 1000,\n               specialEasing: {\n               marginLeft: 'easeOutBounce'\n               },\n               complete: function () {\n               }\n             });\n });\n \n \njQuery('div.answer' ).hide();\n\njQuery('div.answer').eq(0).show();\n\njQuery('h3.question').click(function() {\n   jQuery(this).next().animate( \n      {'height':'toggle'}, 'slow', 'easeOutBounce'\n);\n});\n  \n  \n  \n  \n jQuery('.close-btn').click(\n function() { \n jQuery(this).parent().fadeOut();\n }) \n \n \n // This is a functions that scrolls to #{blah}link\n\n\njQuery('#scroll-lower').click(function(e) { \ne.preventDefault();\njQuery('html,body').animate({ scrollTop: jQuery('.online-chat').offset().top }, 'slow');\n});\n\n  jQuery('.launch-window').click(function(e) {\n    e.preventDefault();\n    var id = '#post-' + jQuery(this).attr(\"href\");\n  jQuery('html,body').animate({ scrollTop: jQuery('.online-chat.top-area').offset().top }, 'slow');\n  jQuery(id).delay(400).fadeIn();     \n});\n\n\n  \n  \n\n\n \n/*jQuery('#display-nav').click( function() {\n        var toggleWidth = jQuery(\"#sidebar\").width() == 225 ? \"0\" : \"225px\";\n    \n    jQuery('#sidebar').animate({ width: toggleWidth });\n    });\n  */\n\n    jQuery('iframe[src*=\"youtube.com\"], iframe[src*=\"viddler.com\"]').wrap(\"<div class='video-container' />\");\n});",
+			"file": "assets/js/custom.js",
+			"file_size": 11526,
+			"file_write_time": 130554362100000000,
+			"settings":
+			{
+				"buffer_size": 11051,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/_globals.scss",
+			"settings":
+			{
+				"buffer_size": 72338,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 3150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/_media-queries.scss",
+			"settings":
+			{
+				"buffer_size": 24420,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sftp-config.json",
+			"settings":
+			{
+				"buffer_size": 1424,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"fetc",
+				"Fetch: Package"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"live",
+				"LiveReload: Self test"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"gis",
+				"Gist: Open Gist"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"synta",
+				"Set Syntax: Sass"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn",
+				"Set Syntax: Sass"
+			],
+			[
+				"word",
+				"WordPress Codex: Search from Input"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:l",
+				"Set Syntax: LESS"
+			],
+			[
+				"syntax l",
+				"Set Syntax: LESS"
+			],
+			[
+				"synt",
+				"Set Syntax: Sass"
+			],
+			[
+				"syntax",
+				"Set Syntax: Sass"
+			],
+			[
+				"syntax:s",
+				"Set Syntax: Sass"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/wei/wp-content/themes/aawep",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/custom.css",
+		"/C/wamp/www/wei/wp-content/themes/aawep/sftp-config.json",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/sftp-config.json",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/footer.php",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/header.php",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/assets/css/_ask-alison.scss",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/templates/aa-monthly-message.php",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/single-cat-ask-alison.php",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/assets/css/_variables.scss",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/single-google-hangout.php",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/includes/page-headers/a-alison-page-header.php",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/assets/js/custom.js",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/functions.php",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/assets/css/custom.scss",
+		"/C/wamp/www/wpa/wp-content/themes/aawep/assets/css/_yuck.scss",
+		"/C/wamp/www/wei/wp-config.php",
+		"/C/wamp/www/aawep/wp-content/themes/sftp-config.json",
+		"/C/wamp/www/aawep/wp-content/themes/aawep/assets/css/custom.css",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/custom.scss",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/aawep/oct-10-14/assets/css/custom.scss",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wei/assets/css/custom.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/aawep/oct-10-14/assets/css/fonts.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/aawep/oct-10-14/assets/css/base.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/aawep/oct-10-14/assets/css/datepicker.css",
+		"/C/wamp/www/aawep/wp-content/themes/aawep/templates/post-banner.php",
+		"/C/wamp/www/aawep/wp-content/themes/aawep/templates/slider.php",
+		"/C/wamp/www/aawep/wp-content/themes/aawep/templates/header-blog.php",
+		"/C/wamp/www/aawep/wp-content/themes/au-blog/header.php",
+		"/C/wamp/www/aawep/wp-content/themes/aawep/templates/blog.php",
+		"/C/wamp/www/aawep/wp-content/themes/au-blog/category.php",
+		"/C/wamp/www/aawep/wp-content/themes/aawep/templates/footer-blog.php",
+		"/C/wamp/www/aawep/wp-content/themes/au-blog/footer.php",
+		"/C/wamp/www/awme-dev/wp-content/themes/bootstrap/sftp-config.json",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/AWME/local-dev/30-7-14/sftp-config.json",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/AWME/local-dev/30-7-14/wp-content/themes/bootstrap/footer.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/AWME/local-dev/30-7-14/footer.php",
+		"/C/wamp/www/agile-live-server/css/style2.scss",
+		"/C/wamp/www/agile-live-server/css/style-2.css",
+		"/C/wamp/www/agile-live-server/css/style2.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AGILE PEOPLE/local-dev/aug2014/sftp-config.json",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/HELLO TOES/mobile-theme/403.html",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/HELLO TOES/mobile-theme/Styles/default.css",
+		"/C/Users/ChrisJ/Desktop/links.html",
+		"/C/Users/ChrisJ/Desktop/save-the-bees.html",
+		"/C/Users/ChrisJ/Desktop/save-bees-old.html",
+		"/C/wamp/www/asa/wp-config.php",
+		"/C/Users/ChrisJ/Desktop/index.html",
+		"/C/wamp/www/asa/wp-content/themes/asa/header.php",
+		"/C/wamp/www/asa/wp-content/plugins/wp-members/wp-members.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wpa/29-7-14/sftp-config.json",
+		"/C/Users/ChrisJ/Desktop/stylesheet.css",
+		"/C/wamp/www/wei/wp-content/themes/aawep/includes/page-headers/a-alison-page-header.php",
+		"/C/wamp/www/wei/wp-content/themes/aawep/page.php",
+		"/C/wamp/www/awme-dev/wp-content/themes/bootstrap/css/_fonts.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_advisory-board.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_home.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_headers.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_modules.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_product.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_forms.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_foxycart.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_media-queries.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/fonts.css",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_buttons.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_layout.scss",
+		"/C/wamp/www/awme-dev/wp-content/themes/bootstrap/css/_product.scss",
+		"/C/wamp/www/awme-dev/wp-content/themes/bootstrap/css/main.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/main.css",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/layout.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_globals.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/base.css",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/offcanvas.css",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_yuck.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/_reset.scss",
+		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/freewaygothic-webfont.ttf",
+		"/C/wamp/www/betheme/wp-content/themes/betheme/css/custom.css",
+		"/C/wamp/www/betheme/wp-content/themes/betheme/style.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/TDT/dev/folio.sublime-project",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/TDT/dev/test.html",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/PORTABLE APPS/sublime3-portable/Data/Packages/User/SFTP.sublime-settings",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wei/sftp-config.json",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wei/assets/js/custom.js",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wei/functions.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wei/foxyshop-single-product.php",
+		"/C/Users/ChrisJ/Desktop/logo.html",
+		"/C/wamp/www/agile-people/index-bootstrap-ee.html",
+		"/C/wamp/www/agile-people/assets/css/style2.css",
+		"/C/wamp/www/agile-people/assets/css/style.scss",
+		"/C/wamp/www/agile-people/assets/css/style.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/LTS/local/lts-cms/wp-content/themes/lts-theme/home.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/LTS/local/home.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/LTS/local/lts-cms/wp-content/themes/lts-theme/css/styles/stylesheet.css",
+		"/C/wamp/www/betheme/wp-content/themes/betheme/css/fonts/stylesheet.css",
+		"/C/Users/ChrisJ/AppData/Local/Temp/Rar$DRa0.825/stylesheet.css",
+		"/C/wamp/www/betheme/wp-content/themes/betheme-child/css/main.css",
+		"/C/wamp/www/betheme/wp-content/themes/betheme-child/style.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wpa/29-7-14/templates/reosurces.php",
+		"/C/wamp/www/betheme/wp-config.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/FLYNN/dev/header.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/FLYNN/dev/page.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/FLYNN/dev/sftp-config.json",
+		"/C/users/chrisj/appdata/local/temp/sublime-sftp-browse-1407814649/mapped/public_html/flynn/wp-content/themes/flynn/assets/css/custom.min.css",
+		"/C/wamp/www/isotope/dist/js/main.js",
+		"/C/wamp/www/isotope/dist/index.html",
+		"/C/wamp/www/isotope/dist/css/main.css",
+		"/C/wamp/www/isotope/dist/js/isotope.pkgd.min.js",
+		"/C/wamp/www/isotope/src/index.html",
+		"/C/wamp/www/isotope/html5/dist/index.html",
+		"/C/wamp/www/isotope/src/js/main.js",
+		"/C/wamp/www/isotope/src/css/main.css",
+		"/C/wamp/www/isotope/src/js/isotope.pkgd.min.js",
+		"/C/wamp/www/affiliate-banners/wei/banners-on-page.html",
+		"/C/wamp/www/affiliate-banners/wei/css/ad.scss",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/affiliate/affiliate-banners/wei/combined-banners.html",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/affiliate/affiliate-banners/wei/css/ad.scss",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/affiliate/affiliate-banners/wei/css/ad_AUG-11.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/TONIC CONNECTIVE/DEPPRO/2014/local-dev/apf.group/main.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/TONIC CONNECTIVE/DEPPRO/2014/local-dev/apf.group/index.html",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/TONIC CONNECTIVE/DEPPRO/2014/local-dev/vow.group/index.html",
+		"/C/Users/ChrisJ/Desktop/orig.html",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/TONIC CONNECTIVE/DEPPRO/2014/local-dev/sftp-config.json",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/TONIC CONNECTIVE/DEPPRO/2014/local-dev/vow.group/main.css",
+		"/C/Users/ChrisJ/Desktop/combo.html",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/AWME/local-dev/7-8-14/css/main.css",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wei/footer.php",
+		"/C/Users/ChrisJ/Desktop/index.php",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/AWME/local-dev/7-8-14/css/_globals.scss",
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/AWME/local-dev/7-8-14/home.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			".",
+			"css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#gform_wrapper_1",
+			".nav-",
+			"li a",
+			"progr",
+			"pro",
+			"gform_wrapper",
+			"paymentContainer",
+			"<?php bloginfo('url'); ?>",
+			"<?php bloginfo('url'); ?>/",
+			"460",
+			"video-",
+			"Exc",
+			"exc",
+			"vide",
+			".css",
+			"<?php bloginfo('url' ); ?>/wp-content/themes/",
+			"plugins",
+			"<?php bloginfo('url' ); ?>/wp-content/",
+			"<a",
+			"</span></p>",
+			"<p><span>",
+			"wpmem_inc_sidebar",
+			"business",
+			"2463",
+			"wrap",
+			"sidebar",
+			"hashScript",
+			"h1",
+			"$",
+			"h3",
+			"-",
+			"ask-alison",
+			"overview",
+			"@me",
+			"”",
+			"\"\"",
+			"\"",
+			"“",
+			"hidden",
+			"discou",
+			"coupon",
+			"attr",
+			"remov",
+			"fonts/",
+			"{site_url}images/",
+			"	\n",
+			"{site_url}images/",
+			"../images/",
+			"fonts/",
+			"../images/",
+			"assets/",
+			"{site_ur}",
+			"{site_url}css/",
+			"{site_url}js",
+			"assets/",
+			"http://www.agilepeople.com.au/",
+			"@",
+			"<li>",
+			"li>",
+			"../images/",
+			"</a",
+			"</a>",
+			"CERTIFIED WEDDING",
+			"90",
+			"@",
+			"Special Offer for VOW ",
+			"Special Offer for VOW \nFinancial Members",
+			"australian P",
+			"VOW Financial Members",
+			"Special Offer for VOW",
+			"Special",
+			"special",
+			"Get Your Depreciation",
+			"contact",
+			"MOBILE VERS",
+			"toggleWidth",
+			"col-sm-3",
+			"http://www.sandstormevents.net/",
+			"$",
+			"video",
+			"form",
+			"files/fancybox/",
+			"files/ui/",
+			"http://quanticalabs.com/wp_themes/gymbase/wp-content/themes/gymbase/images/",
+			"http://quanticalabs.com/wp_themes/gymbase/wp-content/themes/gymbase/style/",
+			"http://quanticalabs.com/wp_themes/gymbase/wp-content/themes/gymbase/js/",
+			"http://quanticalabs.com/wp_themes/gymbase/wp-includes/js/jquery/",
+			"$",
+			"http://www.weddingandeventinstitute.com",
+			"@include",
+			"470",
+			"video",
+			"          \n",
+			"-15px",
+			".widget-1",
+			"extension=php_curl.dll",
+			"chat",
+			".chat",
+			"WP_DEB",
+			"formB",
+			"formButton",
+			"fillF",
+			"main",
+			"topA",
+			"topArea",
+			"main",
+			"formButton",
+			"Sidebar Setup",
+			"footer Menu",
+			"Header",
+			"header",
+			"Header",
+			"header",
+			"Header",
+			"header",
+			"640",
+			"540",
+			".dateFloat",
+			"padding-top: 10px;",
+			"72",
+			"body",
+			"setWidth",
+			"450",
+			"350",
+			"p",
+			"767",
+			"599",
+			"568"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<?php bloginfo('url' ); ?>/aawep2014/wp-content/themes/",
+			"<?php bloginfo('url' ); ?>/aawep2014/wp-content/",
+			"{site_url}assets/fonts/",
+			"{site_url}assets/images/",
+			"{site_url}images/",
+			"http://www.thosedigitalthoughts.com/fonts/",
+			"{site_url}assets/images/",
+			"{site_url}",
+			"http://www.aawep.com.au/aawep2014/wp-content/themes/aawep/assets/images/",
+			"</a>{$impression_track}",
+			"Australian Property Finance Members",
+			"<?php bloginfo('url'); ?>/",
+			"jQuery",
+			"files/",
+			"jQuery",
+			"450",
+			"490",
+			"720",
+			"470",
+			"450",
+			"640",
+			"599",
+			"490",
+			"480",
+			"767",
+			"jQuery",
+			"",
+			"&nbsp;&nbsp|&nbsp;&nbsp",
+			"  |  ",
+			"14px",
+			"<a style=\"text-decoration:none;\"",
+			"style=\"color:#808080; text-decoration:none;",
+			"13px",
+			"../images/",
+			"#{$images}/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "foxyshop-single-product.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2278,
+								2278
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1649.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/aa-monthly-message.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2344,
+								1699
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "single-cat-ask-alison.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1386,
+								1386
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4090,
+								4090
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 757.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "functions.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 25439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11183.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "single-ask-alison.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1257,
+								1194
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/css/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sass-textmate-bundle-master/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/css/_forms.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								775,
+								775
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sass-textmate-bundle-master/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/js/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9085,
+								9098
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6455.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "assets/css/_globals.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62969,
+								62969
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sass-textmate-bundle-master/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 34175.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "assets/css/_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sass-textmate-bundle-master/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "assets/css/_media-queries.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12863,
+								12863
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/sass-textmate-bundle-master/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 12945.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "sftp-config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 130.0
+	},
+	"project": "wei-live.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"glob",
+				"css\\_globals.scss"
+			],
+			[
+				"fro",
+				"bootstrap\\front-page.php"
+			],
+			[
+				"ho",
+				"bootstrap\\home.php"
+			],
+			[
+				"fr",
+				"bootstrap\\front-page.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 313.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

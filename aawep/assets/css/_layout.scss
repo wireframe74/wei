@@ -1,0 +1,215 @@
+.left-column, .container{
+  position: relative;
+  }
+/*
+ * Sidebar
+ */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+
+
+.page-header .row-fluid h1 {
+color: #fff;
+font-size: 3.4em;
+text-transform: uppercase;
+vertical-align: middle;
+display: table-cell;
+width: 51%;
+padding-left: 12%;
+text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.7);
+}
+
+footer a {color:#222 }
+
+/* BASE */
+
+* {box-sizing:border-box ;}
+
+.mobile-only {display:none }
+
+.group {
+overflow: hidden;
+}
+
+.no-padding { padding:0 ; margin:0}
+.cta-white.no-padding  { padding:0 ;  }
+
+.reversed.inner-shadow {
+-moz-box-shadow: inset 0px 5px 8px #575757;
+-webkit-box-shadow: inset 0px 5px 8px #575757;
+box-shadow: inset 0px 5px 8px #575757;
+max-width: 1772px;
+margin: 0 auto;
+}
+
+
+a:hover, footer a:hover{cursor:pointer }
+p a:hover,  footer a:hover { color:#1b1b1b }
+
+.display-table { display:table}
+.display-cell { display:table-cell }
+
+
+
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+
+
+
+#scroll-lower {
+width: 10%;
+margin-left: 45%;
+height: 64px;
+display: block;
+margin-top: -22px;
+text-indent: -9999px;
+position: absolute;
+}
+
+.left-column h2:first-child { 
+  text-transform:uppercase 
+}
+
+
+#gform_wrapper_1 {
+padding-left: 0;
+}
+
+#field_1_7 {
+margin: 15px 0 0;
+  float: left;
+  width: 100%;
+}
+
+
+
+#choice_7_1 {
+background: #fff;
+margin: 0;
+padding: 0;
+height: auto;
+float: left;
+height: 20px;
+}
+
+
+label[for=choice_7_1], 
+#field_1_7 label {
+font-size: 16px;
+margin: 0 0 0 0;
+float: left;
+margin: 0 0 0 0;
+line-height: 16px;
+width: 80%;
+}
+
+
+.single-foxyshop_product .gform_body {
+width: 100%;
+}
+
+#gform_wrapper_1 {
+padding-left: 0;
+}
+
+
+#choice_7_1 {
+margin: 0;
+width: 18px;
+}
+
+#tab-container {
+  min-height: 1400px;
+}
+
+@media only screen and (max-width:990px)  { 
+  
+
+  input[type="submit"].large-button, .gform_footer input[type="submit"] {
+  max-width: none;
+  }
+
+}
+
+
+  #field_1_18 small {
+    font-size:16px;
+  }
+
+  #gform_wrapper_1 {
+  padding-left: 0;
+  }
+
+  .single-foxyshop_product .contact-form-wrap .col-md-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+
+  .contact-form-wrap .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+
+  .foxyshop .gform_body {
+  width: 100%;
+  }
+
+  .contact-form-wrap .container {
+padding-left: 0;
+padding-right: 0;
+}
+
+.single-foxyshop_product {
+  .contact-form-wrap .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .contact .container.content, 
+  .download-brochure .container.content {
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+
+}
+
+
+a{
+    outline: none !important;
+ }

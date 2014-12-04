@@ -1,0 +1,5 @@
+[06-Aug-2014 14:04:16 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/aawepcom/public_html/weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/index.php on line 1
+[29-Sep-2014 15:35:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/aawepcom/public_html/weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/index.php on line 1
+[29-Sep-2014 16:01:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/aawepcom/public_html/weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/index.php on line 1
+[29-Sep-2014 16:24:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/aawepcom/public_html/weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/index.php on line 1
+[29-Sep-2014 16:46:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/aawepcom/public_html/weddingandeventinstitute.com/aawep2014/wp-content/themes/aawep/index.php on line 1
